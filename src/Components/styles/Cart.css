@@ -1,0 +1,44 @@
+.c-nav {
+    background-color: #007BFF;
+    padding: 10px 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  @media (max-width: 768px) {
+    li {
+      flex-direction: column;
+    }
+  
+    li button {
+      margin-top: 10px;
+    }
+  }
+  
